@@ -1,0 +1,25 @@
+
+.dialogs {
+    display: grid;
+ grid-template-columns: 2fr 10fr;
+}
+.dialogsItems {
+    margin-top: 10px;
+    color: white;
+
+}
+.dialogsItems .active {
+    color: gold;
+     margin-top: 10px;
+
+}
+
+.messages {
+    color: blueviolet;
+    color-interpolation-filters: sRGB;
+    margin-top: 10px;
+}
+
+.messages .messages {
+    color: white;
+}
